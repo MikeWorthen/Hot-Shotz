@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MikeWorthen/Hot-Shotz/issues"
   },
-  "homepage": "https://github.com/MikeWorthen/Hot-Shotz#readme"
+  "homepage": "https://github.com/MikeWorthen/Hot-Shotz#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

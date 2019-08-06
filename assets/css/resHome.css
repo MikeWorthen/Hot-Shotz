@@ -1,0 +1,11 @@
+.form-container{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    position: fixed;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}

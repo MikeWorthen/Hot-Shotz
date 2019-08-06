@@ -1,0 +1,49 @@
+body{
+    background-image: url(../../assets/images/fire.jpg)
+}
+.jumbo-container{
+    
+}
+.button-container{
+    display: flex;
+    justify-content:center;
+}
+.make-res{
+    color: white;
+    background-color: firebrick;
+}
+.make-res:hover{
+    background-color: firebrick;
+    background-color: yellow;
+    box-shadow: 2px 3px orangered;
+    color: orangered;
+    animation: glow 2s infinite alternate;
+}
+
+.home-button{
+    color: white;
+    background-color: firebrick;
+    
+
+}
+.home-button:hover{
+    background-color: yellow;
+    box-shadow: 2px 3px orangered;
+    color: orangered;
+    animation: glow 2s infinite alternate;
+}
+
+.second-table{
+    color: white;
+    border: 1px solid black;
+    background: firebrick;
+}
+
+@keyframes glow{
+    from{
+        box-shadow: 0 0 5px -5px ;
+    }
+    to{
+        box-shadow: 0 0 5px 5px ;
+    }
+}
